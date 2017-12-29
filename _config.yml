@@ -1,7 +1,7 @@
 #header
-name: SHAW
-description: Keep it short. Keep it simple.
-favicon: /fav.png
+name: GENKUN
+description: Sometimes NAIVE.
+favicon: /favicon.png
 ga: ''
 
 #nav
@@ -18,10 +18,16 @@ excerpt_link: Continue Reading
 #about me
 aboutMeImg: /aboutme.jpg
 
-github: https://github.com/yiliashaw
-twitter: https://twitter.com/YiliaShaw
-weibo: http://weibo.com/kathleenxiao
+github: https://github.com/GenkunAbe
+twitter: https://twitter.com/GenkunAbe
+weibo: https://weibo.com/genkunabe
 
 #copyright
 themeLink: https://github.com/yiliashaw/hexo-theme-prince
 
+cdn:
+    mathjax: https://cdn.mathjax.org
+
+## enable disqus powered comment system
+comment:
+    id: genkun
