@@ -6,17 +6,21 @@ if page.mathjax != false
       tex2jax: {
         inlineMath: [ ['$','$'], ["\\(","\\)"] ],
         displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-        processEscapes: true
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
       },
       TeX: {
         extensions: ['AMSmath.js', 'AMSsymbols.js', 'noErrors.js', 'noUndefined.js', 'extpfeil.js']
       },
-      "HTML-CSS": { availableFonts: ["TeX"] }
-    });
-  script(type="text/x-mathjax-config").
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      "HTML-CSS": { 
+        availableFonts: ["TeX"],
+        scale: 85
       },
+      CommonHTML: {
+        scale: 85
+      },
+      SVG: {
+        scale: 85
+      }
     });
   script(async, type="text/javascript", src=theme.cdn.mathjax + '/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML')
