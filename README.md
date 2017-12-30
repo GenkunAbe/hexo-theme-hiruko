@@ -1,12 +1,12 @@
-# Prince
+# HIRUKO
 
 A SIMPLE and CLEAN theme for [Hexo].
 
-*No categories. No share. No comment.*
+*Available: MathJax, Disqus Comments.*
 
-- [Preview](https://yiliashaw.github.io/)
+- [Preview](http://genkun.me/)
 
-Inspired by [apollo](https://github.com/pinggod/hexo-theme-apollo)
+Inspired by [prince](https://github.com/yiliashaw/hexo-theme-prince)
 
 ## Installation
 
@@ -14,18 +14,18 @@ Inspired by [apollo](https://github.com/pinggod/hexo-theme-apollo)
 
 ``` bash
 $ npm install hexo-renderer-jade --save
-$ git clone https://github.com/yiliashaw/hexo-theme-prince.git themes/prince
+$ git clone https://github.com/GenkunAbe/hexo-theme-hiruko.git themes/hiruko
 ```
 
 
 ### Enable
 
-Modify `theme` setting in `_config.yml` to `prince`.
+Modify `theme` setting in `_config.yml` to `hiruko`.
 
 ### Update
 
 ``` bash
-cd themes/prince
+cd themes/hiruko
 git pull
 ```
 
