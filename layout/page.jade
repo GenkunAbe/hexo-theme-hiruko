@@ -1,20 +1,4 @@
-extends _partial/layout.jade
-
-block container
-  if page.layout === 'about'
-    h3.aside-title ABOUT ME
-    .about-me-image
-    .post
-      article.post-block
-        .post-entry.post-about!= page.content
-    .follow-me.widget
-      h3.aside-title FOLLOW ME
-      .follow-icons
-        a.github-link(href=theme.github target='_blank')
-        a.twitter-link(href=theme.twitter target='_blank')
-        a.weibo-link(href=theme.weibo target='_blank')
-  if page.layout === 'gallery'
-    h3.gallery-title.aside-title GALLERY
-    .post
-      article.post-block
-        .post-entry.post-gallery-page!= page.content
+if page.layout === 'about'
+  include about
+if page.layout === 'gallery'
+  include gallery

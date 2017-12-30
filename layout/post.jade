@@ -7,3 +7,7 @@ block container
 block pagination
   include mixins/paginator
   +post()
+
+block comments
+  if page.comments == true
+    include _partial/disqus

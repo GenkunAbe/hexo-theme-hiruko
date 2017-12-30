@@ -1,0 +1,8 @@
+extends _partial/layout
+
+block container
+  include mixins/post
+  +postAbout(page)
+
+block aside
+  include _partial/aside-about

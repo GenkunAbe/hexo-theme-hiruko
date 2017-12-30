@@ -9,8 +9,7 @@ html(lang=config.language)
         block container
         block aside
         block pagination
-        if page.comments == true
-          include disqus
+        block comments
     footer
       include copyright
       include after_footer
@@ -22,15 +21,3 @@ html(lang=config.language)
     script(src='//cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js')
 
     script(src='/js/script.js')
-
-    script.
-      var url_parts = window.location.href.split("?");
-      var disqus_url = url_parts[0];
-      (function () {
-          console.log("enter disqus");
-          var dsq = document.createElement('script');
-          dsq.type = 'text/javascript';
-          dsq.async = true;
-          dsq.src = "//#{theme.comment.id}.disqus.com/embed.js";
-          (document.head || d.body ).appendChild(dsq);
-      })();
