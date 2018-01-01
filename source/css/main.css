@@ -619,18 +619,18 @@ h1.prince-log a {
 }
 
 blockquote {
-  background-color: #F9F9F9;
+  /* background-color: #F9F9F9; */
 }
 
 .post-entry blockquote {
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
   margin-bottom: 20px;
 }
 
 .post-entry blockquote p {
-  border-left: 3px solid #424243;
+  /* border-left: 3px solid #424243; */
   color: #999;
-  padding: 0 18px;
+  padding: 0 28px;
   font-family: "Georgia";
   font-size: 15px;
   line-height: 28px;
