@@ -7,9 +7,9 @@ ga: ''
 #nav
 nav:
     HOME: /
-    ARCHIVE: /archives/
-    GALLERY:  /gallery/
-    ABOUT: /about/
+    ARCHIVE: /archives
+    GALLERY:  /gallery
+    ABOUT: /about
 
 #post
 excerpt_link: Continue Reading
@@ -23,6 +23,7 @@ twitter: https://twitter.com/GenkunAbe
 weibo: https://weibo.com/genkunabe
 
 #copyright
+themeName: Hiruko
 themeLink: https://github.com/GenkunAbe/hexo-theme-hiruko
 
 cdn:
