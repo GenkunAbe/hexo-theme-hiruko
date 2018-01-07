@@ -195,13 +195,13 @@ a img {
 }
 
 @font-face {
-  font-family: 'EBGaramond';
-  src: url('../fonts/EBGaramond/EBGaramond08-Regular.eot');
+  font-family: 'Vollkorn';
+  src: url('../fonts/Vollkorn/Vollkorn-Semibold.eot');
   src:
-    url('../fonts/EBGaramond/EBGaramond08-Regular.eot?#font-spider') format('embedded-opentype'),
-    url('../fonts/EBGaramond/EBGaramond08-Regular.woff') format('woff'),
-    url('../fonts/EBGaramond/EBGaramond08-Regular.ttf') format('truetype'),
-    url('../fonts/EBGaramond/EBGaramond08-Regular.svg') format('svg');
+    url('../fonts/Vollkorn/Vollkorn-Semibold.eot?#font-spider') format('embedded-opentype'),
+    url('../fonts/Vollkorn/Vollkorn-Semibold.woff') format('woff'),
+    url('../fonts/Vollkorn/Vollkorn-Semibold.ttf') format('truetype'),
+    url('../fonts/Vollkorn/Vollkorn-Semibold.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -230,7 +230,7 @@ a img {
 /*-----------------------------------------------------------------------------------*/
 
 body {
-  font-family: "Noto Serif SC", "Trebuchet MS", monospace, 'Microsoft YaHei', STHeiti;
+  font-family: "Vollkorn", "Noto Serif SC", "Trebuchet MS", monospace, 'Microsoft YaHei', STHeiti;
   color: #000;
   font-size: 16px;
   background-color: rgba(246, 247, 249, 1);
@@ -553,7 +553,7 @@ h1.prince-log a {
 }
 
 .post-title {
-  font-family: "Noto Serif SC", 'Noto Sans SC', "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeiti, Arial, sans-serif;
+  font-family: "Vollkorn", "Noto Serif SC", "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeiti, Arial, sans-serif;
   margin-bottom: 25px;
   margin-top: 20px;
   text-align: center;
@@ -565,7 +565,7 @@ h1.prince-log a {
 }
 
 .post-title a {
-  font-family: "Noto Serif SC", 'Noto Sans SC', "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeiti, Arial, sans-serif;
+  font-family: "Vollkorn", "Noto Serif SC", "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeiti, Arial, sans-serif;
   color: #000;
 }
 
@@ -648,7 +648,7 @@ h1.prince-log a {
 .post-entry h6,
 .post-entry hr {
   margin-bottom: 20px;
-  font-family: "EBGaramond", 'Noto Serif SC', "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeitiArial, sans-serif;
+  font-family: "Vollkorn", 'Noto Serif SC', "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeitiArial, sans-serif;
 }
 
 .post-entry h1,
@@ -758,7 +758,7 @@ blockquote {
 }
 
 .post-entry ul li {
-  font-family: 'Noto Serif SC', "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeitiArial, sans-serif;
+  font-family: "Vollkorn", "Noto Serif SC", "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeitiArial, sans-serif;
   margin-bottom: 8px;
   list-style: square;
 }
@@ -952,7 +952,7 @@ blockquote {
 }
 
 a.article-more {
-  font-family: "Trebuchet MS", Monaco, monospace;
+  font-family: 'Noto Sans SC', "Trebuchet MS", Monaco, monospace;
   font-size: 0.875rem;
   line-height: 35px;
   padding-left: 10px;
@@ -1073,7 +1073,7 @@ aside.sidebar {
 }
 
 .post-item a .post-title {
-  font-family: 'Noto Serif SC', "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeiti, Arial, sans-serif;
+  font-family: "Vollkorn", 'Noto Serif SC', "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeiti, Arial, sans-serif;
   text-align: left;
   margin: 0px;
   font-weight: 400;
@@ -1090,7 +1090,7 @@ aside.sidebar {
     margin: 8px 0;
   }
   .post-item a .post-title {
-    font-family: "Noto Serif SC", 'Noto Sans SC', "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeiti, Arial, sans-serif;
+    font-family: "Vollkorn", "Noto Serif SC", "Trebuchet MS", Helvetica Neue, Helvetica, 'Microsoft YaHei', STHeiti, Arial, sans-serif;
     height: 18px;
     line-height: 18px;
     padding-left: 0px;
@@ -1142,7 +1142,7 @@ aside.sidebar {
 /*-----------------------------------------------------------------------------------*/
 
 .widget {
-  font-family: 'Noto Serif SC', "Trebuchet MS", monospace, 'Microsoft YaHei', STHeiti;  
+  font-family: "Vollkorn", "Noto Serif SC", "Trebuchet MS", monospace, 'Microsoft YaHei', STHeiti;  
   padding: 0 30px 40px;
   color: #3f3f3f;
 }
@@ -1171,7 +1171,7 @@ h3.aside-title {
 }
 
 .about-me-text {
-  font-family: 'Noto Serif SC', "Trebuchet MS", monospace, 'Microsoft YaHei', STHeiti;
+  font-family: "Vollkorn", "Noto Serif SC", "Trebuchet MS", monospace, 'Microsoft YaHei', STHeiti;
   padding: 15px 0 0;
   font-size: 0.875rem;
   line-height: 22px;
@@ -1254,7 +1254,7 @@ h3.aside-title {
 .paginator a,
 .post-nav a {
   color: #656565;
-  font-family: "Noto Serif SC", 'Oswald', sans-serif, 'Microsoft YaHei', STHeiti;
+  font-family: "Noto Sans SC", 'Oswald', sans-serif, 'Microsoft YaHei', STHeiti;
   text-transform: uppercase;
   font-size: 0.875rem;
   font-weight: 500;
@@ -1327,7 +1327,7 @@ h3.aside-title {
   padding: 35px 0;
   background: rgba(246, 247, 249, 1);
   overflow: hidden;
-  font-family: "Noto Serif SC", sans-serif, 'Microsoft YaHei', STHeiti;
+  font-family: "Noto Sans SC", sans-serif, 'Microsoft YaHei', STHeiti;
   clear: both;
   text-align: center;
 }
@@ -1335,7 +1335,7 @@ h3.aside-title {
 .copyright p {
   font-size: 0.75rem;
   color: #6b6b6b;
-  font-family: "Noto Serif SC", "Trebuchet MS", monospace, 'Microsoft YaHei', STHeiti;
+  font-family: "Noto Ssns SC", "Trebuchet MS", monospace, 'Microsoft YaHei', STHeiti;
 }
 
 .copyright p a {

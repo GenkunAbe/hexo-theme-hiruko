@@ -5,19 +5,12 @@ html(lang=config.language)
   body
     .wrap
       include nav
-      main.prince-container
+      main.hiruko-container
         block container
         block aside
         block pagination
         block comments
     footer
       include copyright
-      include after_footer
 
-    script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
-
-    script(src='/js/bootstrap.min.js')
-
-    script(src='//cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js')
-
-    script(src='/js/script.js')
+    include scripts
