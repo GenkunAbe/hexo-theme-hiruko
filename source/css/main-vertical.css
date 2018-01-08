@@ -1373,3 +1373,7 @@ h3.aside-title {
 #disqus_thread {
   width: 600px;
 }
+
+.upright {
+  text-orientation: sideways;
+}
