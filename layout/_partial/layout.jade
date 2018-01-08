@@ -10,7 +10,10 @@ html(lang=config.language)
         block aside
         block pagination
         block comments
-    footer
-      include copyright
-
+        if page.vertical == true
+          footer
+            include copyright
+    if page.vertical != true
+      footer
+        include copyright
     include scripts

@@ -1,5 +1,7 @@
 script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
 
+script(src='//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js')
+
 script(src='/js/bootstrap.min.js')
 
 script(src='//cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js')
@@ -58,3 +60,12 @@ script.
       dsq.src = "//#{theme.comment.id}.disqus.com/embed.js";
       (document.head || d.body ).appendChild(dsq);
   })();
+
+if page.vertical == true
+  script.
+    $(document).ready(function () {
+      $('html, body, *').mousewheel(function(e, delta) {
+          this.scrollLeft += (delta * 100);
+          e.preventDefault();
+      });
+    });

@@ -12,5 +12,8 @@ meta(name="apple-mobile-web-app-status-bar-style", content="#e0e0e0")
 link(rel="icon", href="/favicon.png")
 link(href="/css/bootstrap.min.css", rel="stylesheet")
 link(href="/css/font-awesome.min.css", rel="stylesheet")
-link(href="/css/main.css", rel="stylesheet")
+if page.vertical == true
+  link(href="/css/main-vertical.css", rel="stylesheet")
+else
+  link(href="/css/main.css", rel="stylesheet")
 include google-analytics.jade
