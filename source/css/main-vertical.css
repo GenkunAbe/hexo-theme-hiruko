@@ -752,20 +752,20 @@ blockquote {
 }
 
 .post-entry .pullquote.left {
-  margin-left: 8px;
-  margin-right: 16px;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 
 .post-entry .pullquote.right {
-  margin-right: 8px;
-  margin-left: 16px;
+  margin-bottom: 8px;
+  margin-top: 16px;
 }
 
 .post-entry dl,
 .post-entry ul,
 .post-entry ol {
-  padding-left: 45px;
-  margin-bottom: 20px;
+  padding-top: 19px;
+  margin-left: 20px;
 }
 
 .post-entry ul li {
@@ -963,7 +963,7 @@ blockquote {
 }
 
 a.article-more {
-  font-family: 'Noto Sans SC', "Trebuchet MS", Monaco, monospace;
+  font-family: 'Noto Sans SC';
   font-size: 0.875rem;
   line-height: 35px;
   padding-left: 10px;
