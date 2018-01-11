@@ -169,12 +169,12 @@ a img {
 
 @font-face {
   font-family: 'Noto Serif SC';
-  src: url('../fonts/Noto-Serif-SC/SourceHanSerifCN-Bold.eot');
+  src: url('../fonts/Noto-Serif-SC/SourceHanSerifCN-SemiBold.eot');
   src:
-    url('../fonts/Noto-Serif-SC/SourceHanSerifCN-Bold.eot?#font-spider') format('embedded-opentype'),
-    url('../fonts/Noto-Serif-SC/SourceHanSerifCN-Bold.woff') format('woff'),
-    url('../fonts/Noto-Serif-SC/SourceHanSerifCN-Bold.ttf') format('truetype'),
-    url('../fonts/Noto-Serif-SC/SourceHanSerifCN-Bold.svg') format('svg');
+    url('../fonts/Noto-Serif-SC/SourceHanSerifCN-SemiBold.eot?#font-spider') format('embedded-opentype'),
+    url('../fonts/Noto-Serif-SC/SourceHanSerifCN-SemiBold.woff') format('woff'),
+    url('../fonts/Noto-Serif-SC/SourceHanSerifCN-SemiBold.ttf') format('truetype'),
+    url('../fonts/Noto-Serif-SC/SourceHanSerifCN-SemiBold.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -265,7 +265,7 @@ nav {
 
 main {
   padding-top: 80px;
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   text-align: justify;
 }
@@ -305,8 +305,6 @@ a:focus {
 }
 
 img {
-  max-width: 1000px;
-  margin: 0 0 0 -113px;
   border: 0;
   padding: 0;
   height: auto;
@@ -635,6 +633,9 @@ h1.prince-log a {
 .post-entry .fancybox {
   text-decoration: none;
   border: none;
+  width: 125%;
+  margin: 0 0 0 -100px;
+  text-align: center;
 }
 
 #more:hover,
@@ -666,7 +667,7 @@ h1.prince-log a {
 .post-entry h5,
 .post-entry h6 {
   color: #000;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .post-entry h1 {
@@ -1026,7 +1027,7 @@ a.article-more:hover {
 /*-----------------------------------------------------------------------------------*/
 
 .post {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 
