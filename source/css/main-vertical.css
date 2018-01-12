@@ -1288,10 +1288,12 @@ h3.aside-title {
 }
 
 .prev-wrap {
+  float: left;
   justify-content: flex-start;
 }
 
 .next-wrap {
+  float: right;
   justify-content: flex-end;
 }
 
