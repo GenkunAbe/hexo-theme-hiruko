@@ -214,6 +214,17 @@ a img {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Vollkorn';
+  src: url('../fonts/Vollkorn/Vollkorn-Bold.eot');
+  src:
+    url('../fonts/Vollkorn/Vollkorn-Bold.eot?#font-spider') format('embedded-opentype'),
+    url('../fonts/Vollkorn/Vollkorn-Bold.woff') format('woff'),
+    url('../fonts/Vollkorn/Vollkorn-Bold.ttf') format('truetype'),
+    url('../fonts/Vollkorn/Vollkorn-Bold.svg') format('svg');
+  font-weight: bold;
+}
+
 /*-----------------------------------------------------------------------------------*/
 
 
@@ -1137,6 +1148,7 @@ aside.sidebar {
   color: #797979;
   line-height: 32px;
   text-transform: uppercase;
+  font-family: "Oswald";
 }
 
 .postList-tags-box li a:hover {
