@@ -430,7 +430,7 @@ pre .javascript .function {
 /*-----------------------------------------------------------------------------------*/
 
 .nav-container {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -541,7 +541,7 @@ h1.prince-log a {
 /*-----------------------------------------------------------------------------------*/
 
 .articles {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
   position: relative;
 }
@@ -1254,7 +1254,7 @@ h3.aside-title {
 
 .paginator,
 .post-nav {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
   margin-bottom: 50px;
   overflow: hidden;
@@ -1308,7 +1308,7 @@ h3.aside-title {
 }
 
 .disqus-comments {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
   margin-bottom: 50px;
   overflow: hidden;
