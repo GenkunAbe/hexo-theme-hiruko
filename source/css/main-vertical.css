@@ -609,7 +609,7 @@ h1.prince-log a {
 
 .post-entry {
   clear: both;
-  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 .post-entry img {
@@ -618,7 +618,6 @@ h1.prince-log a {
 }
 
 .post-entry p {
-  margin-bottom: 20px;
   animation: 3s infinite alternate slideIn;
 }
 
@@ -1040,8 +1039,8 @@ a.article-more:hover {
 /*-----------------------------------------------------------------------------------*/
 
 .post {
-  height: 75%;
-  margin: 12.5% auto;
+  height: 72%;
+  margin: 14% auto;
 }
 
 
@@ -1267,8 +1266,8 @@ h3.aside-title {
 
 .paginator,
 .post-nav {
-  height: 75%;
-  margin: 12.5% auto;
+  height: 72%;
+  margin: 14% auto;
   overflow: hidden;
 }
 
@@ -1320,8 +1319,8 @@ h3.aside-title {
 }
 
 .disqus-comments {
-  height: 75%;
-  margin: 12.5% auto;
+  height: 72%;
+  margin: 14% auto;
   overflow: hidden;
 }
 
