@@ -280,7 +280,7 @@ main {
   width: 100%;
   max-height: 100%;
   margin: 0 auto;
-  padding: 150px 100px 0 0;
+  padding: 80px 100px 0 0;
   overflow-x: scroll;
   text-align: justify;
 }
@@ -564,7 +564,7 @@ h1.prince-log a {
 }
 
 .post-block {
-  margin-bottom: 100px;
+  margin-left: 100px;
 }
 
 .post-block .post-gallery>p {
@@ -1040,8 +1040,8 @@ a.article-more:hover {
 /*-----------------------------------------------------------------------------------*/
 
 .post {
-  height: 100%;
-  margin: 0 auto;
+  height: 75%;
+  margin: 12.5% auto;
 }
 
 
@@ -1267,9 +1267,8 @@ h3.aside-title {
 
 .paginator,
 .post-nav {
-  height: 80%;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  height: 75%;
+  margin: 12.5% auto;
   overflow: hidden;
 }
 
@@ -1321,9 +1320,8 @@ h3.aside-title {
 }
 
 .disqus-comments {
-  height: 80%;
-  margin: 0 auto;
-  margin-bottom: 50px;
+  height: 75%;
+  margin: 12.5% auto;
   overflow: hidden;
 }
 
