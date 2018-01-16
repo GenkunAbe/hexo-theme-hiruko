@@ -2,7 +2,7 @@
 
 A SIMPLE, CLEAN and POWERFUL theme for [Hexo].
 
-- [Preview](http://genkun.me/)
+- [Preview](https://blog.genkun.me)
 
 Inspired by [Prince](https://github.com/yiliashaw/hexo-theme-prince), [Free Mind](http://freemind.pluskid.org/) and [Fate/Typo](https://fatetypo.xyz)
 
